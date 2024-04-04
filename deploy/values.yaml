@@ -61,12 +61,12 @@ ingress:
   #      - chart-example.local
 
 resources: {}
-  requests: 
-    cpu: 200m 
-    memory: 512Mi
-  limits:
-    cpu: 400m
-    memory: 512Mi
+    requests: 
+      cpu: 200m 
+      memory: 512Mi
+    limits:
+      cpu: 400m
+      memory: 512Mi
 
 # livenessProbe:
 #   httpGet:
