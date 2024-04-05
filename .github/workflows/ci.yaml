@@ -6,5 +6,5 @@ on:
       - main
 
 jobs: 
-  call-workflow-2-in-local-repo:
+  call-build-in-libs:
     uses: ./.github/workflows/build.yaml
