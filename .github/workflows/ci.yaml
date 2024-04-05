@@ -7,4 +7,4 @@ on:
 
 jobs: 
   call-workflow-2-in-local-repo:
-    uses: ./.github/workflows/build.yaml@main
+    uses: ./.github/workflows/build.yaml
