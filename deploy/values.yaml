@@ -2,7 +2,7 @@ replicaCount: 5
 image:
   repository: samuelhuss/nlw.service.passin
   pullPolicy: Always
-  tag: d7781ce
+  tag: 39924c7
   port: 3333
 imagePullSecrets: []
 nameOverride: ''
